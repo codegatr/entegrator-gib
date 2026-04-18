@@ -1,0 +1,38 @@
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+/.vscode/
+/.idea/
+*.sublime-*
+
+# Çalışma çıktıları
+/examples/output/*.xml
+/examples/output/*.zip
+!/examples/output/.gitkeep
+
+# İmzalı test sertifikaları (GÜVENLİK — repo'da yer almamalı)
+/tests/fixtures/*.p12
+/tests/fixtures/*.pfx
+/tests/fixtures/*.pem
+/tests/fixtures/*.key
+
+# Geliştirici config
+.env
+.env.local
+config.local.php
+
+# Log
+*.log
+/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+/phpunit.xml
+.phpunit.result.cache
+/build/
+/coverage/
